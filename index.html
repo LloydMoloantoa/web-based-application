@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.61.1/codemirror.min.css">
+    <link rel="stylesheet" href="dest/css/pixi-examples.min.css?v=5.0.0">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <title>Turing Machine Program</title>
+
+    <style>
+          /* General styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content-container {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    /* Responsive typography */
+    h1, h2, h3, p {
+        margin: 0.5em;
+    }
+
+    /* Media queries for different screen sizes */
+    @media (max-width: 600px) {
+        /* Styles for screens smaller than 600px */
+        .button {
+            padding: 10px;
+            font-size: 14px;
+        }
+    }
+
+    @media (min-width: 601px) {
+        /* Styles for screens larger than 600px */
+        .button {
+            padding: 15px;
+            font-size: 16px;
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+    <div id="content-container">
+        <script src="./pixi.min.js"></script>
+        <script src="./main.js"></script>
+    </div>
+</body>
+
+</html>
